@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#un{
+    background-color: purple;
+}
+
+#deux{
+    background-color: blue;
+}
+
+#trois{
+    background-color: red;
+}
+
+@media (max-width: 756px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #un{
+        background-color: yellow;
+    }
+    
+    #deux{
+        background-color: green;
+    }
+    
+    #trois{
+        background-color: pink;
+    }
+}

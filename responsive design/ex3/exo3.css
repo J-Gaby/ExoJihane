@@ -1,0 +1,33 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 50px;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+@media (max-width: 750px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: auto;
+        height: 100%;
+    }
+    
+    li{
+        list-style: none;
+        color: white;
+        background-color: black;
+        width: auto;
+        height: 50px;
+    }
+}

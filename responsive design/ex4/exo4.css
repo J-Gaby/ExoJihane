@@ -1,0 +1,46 @@
+#cool{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p{
+    list-style: none;
+    color: white;
+}
+
+i{
+    color: white;
+    margin-right: 10px;
+}
+
+@media (max-width: 750px){
+    #cool{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    p{
+        list-style: none;
+        color: white;
+    }
+    
+    i{
+        color: white;
+        margin-right: 10px;
+    }
+}

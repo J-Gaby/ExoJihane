@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#un{
+    background-color: yellow;
+}
+
+#deux{
+    background-color: green;
+}
+
+#trois{
+    background-color: pink;
+}
+
+@media (min-width: 800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #un{
+        background-color: purple;
+    }
+    
+    #deux{
+        background-color: blue;
+    }
+    
+    #trois{
+        background-color: red;
+    }
+}

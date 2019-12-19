@@ -1,0 +1,9 @@
+#ulblock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div{
+    margin-right: 10px;
+}

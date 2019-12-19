@@ -1,0 +1,24 @@
+#ulblock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.A{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    color: purple;
+}
+
+.B{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    color: yellow;
+}
