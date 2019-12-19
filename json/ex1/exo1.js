@@ -10,7 +10,53 @@ var data = {
     "alignment": "center"
 }
 
+//troisiem solution
+
 var parent = document.getElementById("tab");
+
+function create_function(parent,key,value){
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    td.innerText = key;
+    var td2 = document.createElement("td");
+    td2.innerText = value;
+    tr.appendChild(td);
+    tr.appendChild(td2);
+    parent.appendChild(tr);
+}
+
+for (key in data) {
+    create_function(parent, key, data[key]);
+}
+
+//deuxieme solution
+
+/*var parent = document.getElementById("tab");
+
+function create_function(parent,key,value){
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    td.innerText = key;
+    var td2 = document.createElement("td");
+    td2.innerText = value;
+    tr.appendChild(td);
+    tr.appendChild(td2);
+    parent.appendChild(tr);
+}
+
+create_function(parent,"debug",data.debug)
+create_function(parent,"title",data.title)
+create_function(parent,"name",data.name)
+create_function(parent,"width",data.width)
+create_function(parent,"height",data.height)
+create_function(parent,"src",data.src)
+create_function(parent,"hOffset",data.hOffset)
+create_function(parent,"vOffset",data.vOffset)
+create_function(parent,"alignment",data.alignment)*/
+
+//premiere solution
+
+/*var parent = document.getElementById("tab");
 
 var tr = document.createElement("tr");
 
@@ -134,4 +180,4 @@ td2.innerText = data.alignment;
 
 tr.appendChild(td);
 tr.appendChild(td2);
-parent.appendChild(tr);
+parent.appendChild(tr);*/
