@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+#un{
+    background-image: url(coloriage-fond-ecran-noel-21.jpg);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#deux{
+    background-image: url(Glace_bleu_-_Fond_ecran_Paysage.jpg);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#trois{
+    background-image: url(p-black-light-dark-figures-2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

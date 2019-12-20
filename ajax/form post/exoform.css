@@ -1,0 +1,17 @@
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: inherit;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#emaill{
+    display: flex;
+    align-items: center;
+}

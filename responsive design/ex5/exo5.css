@@ -1,0 +1,17 @@
+#tout{
+    width: 700px;
+    height: auto;
+}
+
+#ligne{
+    display: flex;
+    flex-direction: row;
+}
+
+#ligne div{
+    text-align: center;
+}
+
+.hf{
+    text-align: center;
+}
