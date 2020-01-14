@@ -1,0 +1,206 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+/*exo 1*/
+section{
+    width: 300px;
+    height: 300px;
+    background-image: url(coucou.jpg);
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#carreexoun{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    visibility: hidden;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+#trans{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    visibility: hidden;
+}
+
+section:hover #carreexoun{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    visibility: initial;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+section:hover #trans{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+/*exo 2*/
+
+i{
+    color: white;
+}
+
+#carreexodeux{
+    visibility: hidden;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+section:hover #carreexodeux{
+    visibility: initial;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+
+/*exo 3*/
+
+#carreexotrois{
+    visibility: hidden;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+section:hover #carreexotrois{
+    visibility: initial;
+    position: absolute;
+    top: 10px;
+    left: 240px;
+}
+
+/*exo 4*/
+
+#carreexoquatre{
+    width: 280px;
+    height: 75px;
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+section:hover #carreexoquatre{
+    color: white;
+    visibility: initial;
+    position: absolute;
+    top: 115px;
+    left: 10px;
+}
+
+section:hover #carreexoquatre p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+section:hover #carreexoquatre span{
+    color: grey;
+    font-style: normal;
+    font-family: Arial;
+}
+
+/*exo 5*/
+
+#carreexocinq{
+    width: 280px;
+    height: 75px;
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+section:hover #carreexocinq{
+    color: white;
+    visibility: initial;
+    position: absolute;
+    top: 115px;
+    left: 0px;
+}
+
+section:hover #carreexocinq p{
+    color: white;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+section:hover #carreexocinq span{
+    color: white;
+    font-style: normal;
+    font-family: Arial;
+}
+
+/*exo 6*/
+
+i{
+    color: white;
+}
+
+#carreexodeux{
+    visibility: hidden;
+    position: absolute;
+    top: 115px;
+    left: 115px;
+}
+
+section:hover #carreexodeux{
+    visibility: initial;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+
+#transsix{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section:hover #transsix{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.image{
+    position: relative;
+}
+
+.image:hover img{
+    transform: scale(2, 2);
+}
+
+.image img{
+    width: 100%;
+    transition: transform 1s;
+}
